@@ -6,7 +6,7 @@ module.exports = {
     'facebookAuth' : {
         'clientID'        : '930470240411018', // your App ID
         'clientSecret'    : '61635422553cc682d4ba29e50e2c7c4b', // your App Secret
-        'callbackURL'     : 'http://40.91.215.112:8080/auth/facebook/callback',
+        'callbackURL'     : 'https://cloudnodejs.azurewebsites.net:8080/auth/facebook/callback',
         'profileURL': 'https://graph.facebook.com/v2.5/me?fields=first_name,last_name,email',
         'profileFields'   : ['id', 'email', 'name'] // For requesting permissions from Facebook API
 
